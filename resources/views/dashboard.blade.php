@@ -10,18 +10,9 @@
             {{ __('Admin') }}
             @endif
         </h2>
-        <div class="przyciski-navbar">
-                    <a class="btn btn-outline-light bg-black" href="{{ url('/') }}">Strona Główna</a>
-                    <a class="btn btn-outline-light bg-black" href="{{ url('/onas') }}">O nas</a>
-                    <a class="btn btn-outline-light  bg-black" href="{{ url('/comments') }}">Blog Auto-Grove</a>
-                    @if(\Auth::user()->role_id == 3)
-                    <a class="btn btn-outline-light  bg-black" href="{{ url('/users') }}">Użytkownicy</a>
-                    @endif
-                    </div>
     </x-slot>
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+
+    
             <div class="ramka">
             @if(\Auth::user()->role_id == 2)
             <h1>Jako moderator możesz usuwać i edytować posty dowolnego użytkownika!</h1>
@@ -34,8 +25,14 @@
                     </br>
                     Prosimy o stosowanie się do regulaminu, ponieważ każdy post łamiący zasady będzie usuwany!
             </div>
+
+            <div class="przyciski-navbar">
+                    <a class="btn btn-outline-light bg-black" href="{{ url('/') }}">Strona Główna</a>
+                    <a class="btn btn-outline-light bg-black" href="{{ url('/onas') }}">O nas</a>
+                    <a class="btn btn-outline-light  bg-black" href="{{ url('/comments') }}">Blog Auto-Grove</a>
+                    @if(\Auth::user()->role_id == 3)
+                    <a class="btn btn-outline-light  bg-black" href="{{ url('/users') }}">Użytkownicy</a>
+                    @endif
+                    </div>
                 
-            </div> 
-        </div>
-    </div>
 </x-app-layout>

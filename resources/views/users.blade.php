@@ -32,6 +32,17 @@
             max-width: 800px;
             margin: 0 auto;
         }
+        @media only screen and (max-width: 600px) {
+        .table-container{
+            max-width: 400px;
+        }
+        table{
+            max-width: 300px;
+        }
+        td,th{
+            font-size:0.8rem;
+
+        }
     </style>
 </head>
 <body>

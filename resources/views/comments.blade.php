@@ -32,6 +32,22 @@
             max-width: 800px;
             margin: 0 auto;
         }
+        @media only screen and (max-width: 600px) {
+        .table-container{
+            max-width: 400px;
+        }
+        table{
+            max-width: 300px;
+        }
+        td,th{
+            font-size:0.8rem;
+
+        }
+        .komentarz{
+            min-width: 200px;
+        }
+
+}
     </style>
 </head>
 <body>
@@ -61,7 +77,7 @@
                     <td>{{$comment->user->name}}</td>
                     <td>{{$comment->created_at}}</td>
                     <td>{{$comment->updated_at}}</td>
-                    <td>{{$comment->message}}
+                    <td><div class ="komentarz">{{$comment->message}}</div>
                     <br /> @if($comment->user_id == \Auth::user()->id || \Auth::user()->role_id == 2 || \Auth::user()->role_id == 3)
                     <a href="{{ route('edit', $comment) }}" 
                         class="btn btn-success btn-xs" title="Edytuj"> Edytuj </a>
