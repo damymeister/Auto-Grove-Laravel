@@ -1,6 +1,7 @@
 ## Laravel Auto-Grove Car Rental and Blog App
 
 This is a web application developed using Laravel PHP framework, that provides a platform for car rental and blog for users. It can be acessed by using three roles: user, moderator and admin.
+The external appearance of the application was practically entirely made using bootstrap. User authentication and identification is done using Laravel Breeze.
 
 ## Features
 
