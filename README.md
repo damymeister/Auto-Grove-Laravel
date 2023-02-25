@@ -29,8 +29,10 @@ You should now be able to access the application on http://localhost:8000 in you
 ## Usage
 To use the application, you can register as a user, or use the following credentials to login as an admin or moderator:
 <br/>
-Admin: email = admin@example.com, password = password
-<br/>
-Moderator: email = moderator@example.com, password = password
+Admin: email = felipe@gmail.com, password = felipefelipe
+Moderator: email = michael@gmail.com, password = michaelmichael
 <br/>
 Once logged in, you can access the dashboard or navigate to the blog or car rental page.
+## An example of the project's appearance
+![Screenshot_1](https://user-images.githubusercontent.com/77884237/221380361-2ce59946-92ea-45a2-92c5-a3e2668e4a39.png)
+![Screenshot_2](https://user-images.githubusercontent.com/77884237/221380362-da0332b6-e535-42c6-b987-a113ba57e116.png)
