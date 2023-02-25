@@ -11,10 +11,9 @@ The application has the following features:
 <li>User authentication and authorization.</li>
 <li>User registration and login.</li>
 <li>User profile page.</li>
-<li>Admin dashboard for managing users, blog posts, cars and bookings.</li>
+<li>Admin dashboard for managing users and blog posts.</li>
 <li>Blog page for displaying blog posts.</li>
-<li>Car rental page for browsing and booking available cars.</li>
-<li>Search and filter functionality for blog posts and cars.</li>
+<li>Moderator dashboard for managing blog posts.</li>
 </ul>
 
 ## Installation
@@ -26,3 +25,12 @@ To run this application on your local machine, you need to have PHP and Laravel 
 4. Run the database migrations and seed the database with some initial data.
 5. Start the development server.
 You should now be able to access the application on http://localhost:8000 in your browser.
+
+## Usage
+To use the application, you can register as a user, or use the following credentials to login as an admin or moderator:
+<br/>
+Admin: email = admin@example.com, password = password
+<br/>
+Moderator: email = moderator@example.com, password = password
+<br/>
+Once logged in, you can access the dashboard or navigate to the blog or car rental page.
