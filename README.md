@@ -14,6 +14,7 @@ The application has the following features:
 <li>Car rental page for browsing and booking available cars.</li>
 <li>Search and filter functionality for blog posts and cars.</li>
 </ul>
+
 ## Installation
 
 To run this application on your local machine, you need to have PHP and Laravel installed on your system. Here are the steps to follow:
